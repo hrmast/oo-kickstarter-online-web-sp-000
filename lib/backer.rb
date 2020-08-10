@@ -10,8 +10,8 @@ class Backer
 
   end
 
-  def backed_projects
-
+  def backed_projects(project)
+    self.project = title
 
   end
 
