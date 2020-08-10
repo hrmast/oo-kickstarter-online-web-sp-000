@@ -9,7 +9,7 @@ class Project
     @backers = []
   end
 
-  def name =
+  def name=(name)
 
   end
 
