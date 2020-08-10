@@ -2,7 +2,7 @@ require "pry"
 
 class Backer
 
-  attr_reader :backed_projects, :name
+  attr_reader :name, :backed_projects
 
   def initialize(name)
     @backed_projects = []
@@ -10,6 +10,9 @@ class Backer
   end
 
   def name=(name)
+
+
+  end
 
 
 end
