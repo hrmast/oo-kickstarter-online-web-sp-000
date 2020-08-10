@@ -2,6 +2,11 @@ require "pry"
 
 class Project
 
-attr_reader :backers
+  attr_reader :backers
+
+  def initialize
+    @backers = []
+  end
+
 
 end
