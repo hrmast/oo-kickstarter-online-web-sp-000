@@ -5,12 +5,9 @@ class Project
   attr_reader :name, :backers
 
   def initialize(name)
-    @name = name
+    @title = title
     @backers = []
   end
 
-  def name=(name)
-
-  end
 
 end
