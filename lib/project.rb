@@ -2,7 +2,7 @@ require "pry"
 
 class Project
 
-  attr_reader :title, :backers
+  attr_reader :title, :backers, :backer
 
   def initialize(title)
     @title = title
